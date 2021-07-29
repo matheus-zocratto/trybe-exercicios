@@ -4,4 +4,11 @@ for(index = 0; index < numbers.length; index +=1){
 numerador += numbers[index]
 
 }
-console.log (numerador / numbers.length);
+let result = numerador / numbers.length;
+
+if(result > 20){
+  console.log("valor maior que 20");
+}
+else if(result <= 20){
+  console.log("valor menor ou igual a 20");
+}
