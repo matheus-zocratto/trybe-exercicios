@@ -1,11 +1,11 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let biggestNumber = numbers[0];
+let impar = [];
 
-for(index = 0; index < numbers.length; index +=1){
-  if(biggestNumber < numbers[index]){
-    biggestNumber = numbers[index];
-    }
-
+for(index = 0; index < numbers.length; index += 1){
+  if(numbers[index] % 2 !== 0){
+    impar.push(numbers[index])
+    
+  }
 }
-  console.log(biggestNumber);
+console.log(impar);
     
